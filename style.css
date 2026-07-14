@@ -8,7 +8,7 @@ body {
     font-family: "Cormorant Garamond", serif;
     background-color: var(--background);
 
-    text-align: left;
+    text-align: center;
 
     max-width: 800px;      /* Prevents text from stretching too wide */
     margin: 0 auto;        /* Centers the content area */
