@@ -5,27 +5,26 @@
 }
 
 body {
-    font-family: // <weight>: Use a value from 300 to 700
-// <uniquifier>: Use a unique and descriptive class name
-
-.cormorant-garamond-<uniquifier> {
-  font-family: "Cormorant Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+    font-family: "Cormorant Garamond", serif;
     background-color: var(--background);
+
     text-align: center;
-    padding: 50px;
+
+    max-width: 800px;      /* Prevents text from stretching too wide */
+    margin: 0 auto;        /* Centers the content area */
+    padding: 80px 40px;    /* Top/bottom = 80px, Left/right = 40px */
 }
 
 h1 {
     font-size: 48px;
     color: var(--primary);
+
+    margin-bottom: 40px;   /* Space below the heading */
 }
 
 p {
     font-size: 20px;
-    line-height: 1.6;
-}
+    line-height: 1.8;      /* More space between lines */
 
+    margin-bottom: 25px;   /* Space between paragraphs */
+}
