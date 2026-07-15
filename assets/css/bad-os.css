@@ -10,3 +10,12 @@
 body {
     background-color: var(--bad-background);
 }
+
+.bad-sidebar {
+
+    background-color: var(--bad-black);
+    color: white;
+    min-height: 100vh;
+    width: 260px;
+
+}
