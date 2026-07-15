@@ -69,7 +69,7 @@ Naming, navigation, layouts, and workflows should follow common standards throug
 
 Important decisions, processes, and business knowledge belong in BAD OS rather than individual memory.  
 
-## 4. Architecture  
+## 4. Information Architecture  
 
 BAD OS is organized into independent modules built around business functions.  
 
@@ -81,153 +81,71 @@ Search should operate across all modules.
 
 The architecture should allow new modules to be added without requiring major changes to existing components.  
 
+**Module Structure**
 
-#### Sidebar
-
-├── **Search**  
-
-│  
-
-├── **Notifications**  
-
-│  
-
-└── **Settings**  
-
-│  
+├── Search  
+├── Notifications  
+└── Settings  
 
 ├── **Governance**  
-
 │   ├── Mission  
-
 │   ├── Vision  
-
 │   ├── Philosophy  
-
 │   ├── Core Values  
-
 │   ├── Organizational Structure  
-
 │   ├── Strategic Plans  
-
 │   ├── Branding  
-
 │   ├── Policies  
-
 │   ├── SOP Library  
-
 │   ├── Board Documentation  
-
 │   └── Management Meetings  
-
 │  
-
 ├── **Corporate Records**  
-
 │   ├── Legal  
-
 │   ├── Banking  
-
 │   ├── Insurance  
-
 │   ├── Tax  
-
 │   ├── Contracts  
-
 │   ├── Licenses  
-
 │   ├── Equity  
-
 │   ├── Financial Statements  
-
 │   ├── Due Diligence  
-
 │   └── Audit  
-
 │  
-
 ├── **Entity Management**  
-
 │   ├── Companies  
-
 │   ├── Owners  
-
 │   ├── Directors  
-
 │   ├── Employees  
-
 │   ├── Investors  
-
 │   ├── Customers  
-
 │   ├── Suppliers  
-
 │   ├── Banks  
-
 │   └── Advisors  
-
 │  
-
 ├── **Compliance**  
-
 │   ├── Customer Due Diligence   
-
 │   ├── Enhanced Due Diligence  
-
 │   ├── AML  
-
 │   ├── Risk Assessments  
-
 │   └── Compliance Documents  
-
 │  
-
 ├── **Financial Management**  
-
 │   ├── Treasury  
-
 │   ├── Transactions  
-
 │   ├── Approvals  
-
 │   ├── Reconciliation  
-
 │   ├── Portfolio  
-
 │   └── Dashboards  
-
 │  
-
-├── **CRM**  
-
-│   ├── Contacts  
-
-│   ├── Companies  
-
-│   ├── Communication History  
-
-│   ├── Opportunities  
-
-│   └── Notes  
-
-│  
-
 ├── **Knowledge**  
-
 │   ├── Acquisition Analyses  
-
 │   ├── Investment Theses  
-
 │   ├── Negotiations  
-
 │   ├── Lessons Learned  
-
 │   ├── Training  
-
 │   ├── Research  
-
 │   ├── Strategic Planning  
-
 │   └── Meeting Minutes  
 
 ## 5. Development Roadmap
