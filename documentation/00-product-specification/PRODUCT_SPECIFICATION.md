@@ -230,167 +230,27 @@ The architecture should allow new modules to be added without requiring major ch
 
 │   └── Meeting Minutes  
 
+## 5. Development Roadmap
 
-## 5. Development Roadmap  
+Development will proceed in small, incremental phases.
 
-Development will occur in small, incremental phases.  
+**Phase	Objective**  
 
-### Phase 0  
+Phase 0:	Planning and product specification  
 
-Planning  
+Phase 1:	User interface design  
 
-Product Specifications  
+Phase 2:	Application framework and navigation  
 
-Information architecture  
+Phase 3:	Core UI components  
 
-Design system  
+Phase 4:	Business modules  
 
-Development standards 
+Phase 5:	Data integration and authentication  
 
+Phase 6:	Continuous improvement and expansion  
 
-### Phase 1 — Design Only
-
-No coding.
-
-Open Canva (or Figma later)
-
-Design:
-
-Dashboard
-
-Governance
-
-Corporate Records
-
-Knowledge
-
-Settings
-
-Companies
-
-Just static screens.
-
-
-### Phase 2 — Create the Shell
-
-Now start coding.
-
-Goal:
-
-BAD
-
-Dashboard
-
-Governance
-
-Corporate Records
-
-Knowledge
-
-Companies
-
-Settings
-
-Nothing works.
-
-They're just pages.
-
-Clicking links changes screens.
-
-That's it.
-
-**This is Version 0.1.**  
-
-
-### Phase 3 — Components 
-
-Now build reusable UI elements.
-
-For example:
-
-Button
-
-Card
-
-Table
-
-Search Box
-
-Sidebar
-
-Header
-
-Breadcrumb
-
-Folder
-
-Document Card
-
-Modal
-
-Everything reusable.
-
-Never duplicate code.  
-
-
-### Phase 4 — Populate the Pages
-
-Hard-code everything.
-
-
-### Phase 5 — Make It Beautiful
-
-Animations
-
-Spacing
-
-Dark Mode
-
-Icons
-
-Hover effects
-
-Transitions
-
-Loading states
-
-Professional polish.  
-
-
-### Phase 6 — Real Data 
-
-Now introduce:
-
-Supabase
-
-Authentication
-
-Database
-
-Storage
-
-Real login
-
-Real documents
-
-Real users
-
-**Now BAD OS becomes an actual application.**
-
-
-### Phase 7  
-
-Continuous Improvement  
-
-Performance optimization  
-
-Additional modules  
-
-Integrations  
-
-User feedback  
-
-Ongoing refinement 
+Each phase should produce a stable, functional foundation before moving to the next.
 
 
 ## 6. Success Criteria  
