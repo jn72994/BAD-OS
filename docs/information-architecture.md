@@ -418,38 +418,139 @@ Capital Management provides the strategic financial intelligence layer of BAD OS
 
 ## 7. Knowledge
 
-Captures organizational intelligence and preserves institutional knowledge.
+### Purpose
 
-```
-Knowledge
-│
-├── Acquisition Analyses
-├── Investment Theses
-├── Negotiations
-├── Lessons Learned
-├── Training
-├── Research
-├── Strategic Planning
-└── Meeting Minutes
-```
+Captures, organizes, and preserves the organization's institutional knowledge, strategic intelligence, research, and lessons learned to improve decision-making and create long-term organizational value.
+
+### Primary Users
+
+- Founders
+- Executive Leadership
+- Board Members
+- Strategy Teams
+- Investment Teams
+- Operations Teams
+- Employees
+- Advisors
+
+### Managed Information
+
+- Acquisition Analyses
+- Investment Theses
+- Negotiations
+- Lessons Learned
+- Training Materials
+- Research
+- Strategic Planning
+- Meeting Insights
+- Market Intelligence
+- Best Practices
+- Organizational Playbooks
+
+### Key Actions
+
+- Create
+- Capture
+- Organize
+- Search
+- Review
+- Analyze
+- Share
+- Reference
+- Update
+- Archive
+- Connect Related Knowledge
+
+### Relationships
+
+Knowledge serves as the intellectual foundation of BAD OS by preserving insights, analysis, and experiences that support better organizational decisions.
+
+- Governance uses knowledge to improve strategic planning, policies, operating philosophy, and organizational direction.
+- Corporate Records provides access to official records that support research, analysis, and historical understanding.
+- Entity Management connects knowledge to the companies, people, investments, customers, suppliers, and other entities it relates to.
+- Compliance uses knowledge to capture lessons learned, research, and improvements to risk management practices.
+- Capital Management uses knowledge to support investment theses, acquisition analysis, market research, and capital allocation decisions.
+- Administration manages access controls, organization structure, search capabilities, and system integrations.
+
+### Future Vision
+
+- AI-powered organizational knowledge assistant
+- Enterprise search across all information sources
+- AI-generated summaries and insights
+- Knowledge graph connecting related ideas, entities, and decisions
+- Automated meeting intelligence
+- Organizational memory preservation
+- Lessons learned database
+- Training and onboarding systems
+- Strategic intelligence dashboards
+- Predictive insights based on historical knowledge
 
 ---
 
 ## 8. Administration
 
-Configures and secures the BAD OS platform, users, permissions, and integrations.
+### Purpose
 
-```
-Administration
-│
-├── User Management
-├── Roles & Permissions
-├── System Settings
-├── Notifications
-├── Integrations
-├── Audit Logs
-├── API Management
-└── Backup & Recovery
-```
+Manages the configuration, security, access, and operational infrastructure of BAD OS by providing the tools necessary to administer users, permissions, integrations, and system functionality.
+
+### Primary Users
+
+- System Administrators
+- Executive Leadership
+- IT Administrators
+- Security Administrators
+- Platform Managers
+
+### Managed Information
+
+- User Accounts
+- Roles & Permissions
+- Access Policies
+- System Settings
+- Notification Preferences
+- Integrations
+- API Connections
+- Audit Logs
+- Security Settings
+- Backup & Recovery Configuration
+- System Metadata
+
+### Key Actions
+
+- Create Users
+- Manage Access
+- Assign Roles
+- Configure Permissions
+- Manage Integrations
+- Monitor System Activity
+- Review Audit Logs
+- Configure Workflows
+- Manage Security Settings
+- Maintain System Configuration
+
+### Relationships
+
+Administration provides the technical and operational foundation that enables every BAD OS module to function securely and effectively.
+
+- Governance establishes organizational authority and decision-making structures that determine administrative responsibilities.
+- Corporate Records relies on Administration for security controls, access permissions, retention policies, and audit tracking.
+- Entity Management uses Administration to control visibility and access to entity information.
+- Compliance depends on Administration for audit logs, security controls, access management, and system monitoring.
+- Capital Management uses Administration to protect sensitive financial information through appropriate permissions and security controls.
+- Knowledge relies on Administration for collaboration settings, search functionality, and information access management.
+
+### Future Vision
+
+- Enterprise identity management
+- Single sign-on (SSO)
+- Advanced permission systems
+- AI-assisted system administration
+- Automated security monitoring
+- Integration marketplace
+- API management platform
+- Automated backup systems
+- System health monitoring
+- Custom workflow configuration
+- Multi-company environment management
 
 ---
