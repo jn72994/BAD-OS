@@ -280,17 +280,69 @@ Entity Management serves as the relationship layer that connects information thr
 
 ## 5. Compliance
 
-Ensures organizational compliance with legal, regulatory, and internal governance requirements.
+### Purpose
 
-```
-Compliance
-│
-├── Customer Due Diligence
-├── Enhanced Due Diligence
-├── AML
-├── Risk Assessments
-└── Compliance Documents
-```
+Ensures the organization maintains adherence to legal, regulatory, contractual, and internal requirements by managing compliance obligations, risk assessments, verification processes, and ongoing monitoring across the enterprise.
+
+### Primary Users
+
+- Executive Leadership
+- Compliance Officers
+- Legal Counsel
+- Risk Management Teams
+- Finance Teams
+- Operations Teams
+- External Auditors
+
+### Managed Information
+
+- Customer Due Diligence (CDD)
+- Enhanced Due Diligence (EDD)
+- Anti-Money Laundering (AML)
+- Risk Assessments
+- Compliance Requirements
+- Regulatory Obligations
+- Compliance Reviews
+- Internal Controls
+- Monitoring Activities
+- Compliance Status
+
+### Key Actions
+
+- Identify
+- Assess
+- Review
+- Approve
+- Monitor
+- Track
+- Escalate
+- Document Findings
+- Assign Remediation Actions
+- Generate Compliance Reports
+
+### Relationships
+
+Compliance provides the framework for identifying, assessing, and managing organizational risk across BAD OS.
+
+- Corporate Records maintains the official evidence and documentation required to demonstrate compliance, including licenses, contracts, policies, certifications, and audit records.
+- Entity Management provides the organizational context by connecting compliance activities to companies, owners, employees, customers, suppliers, banks, and advisors.
+- Governance establishes the policies, standards, and operating principles that define acceptable organizational practices.
+- Capital Management uses compliance information when evaluating investments, financing relationships, acquisitions, and financial risks.
+- Knowledge captures compliance insights, lessons learned, research, and strategic improvements.
+- Administration manages permissions, workflows, security controls, and audit functionality supporting compliance operations.
+
+### Future Vision
+
+- AI-powered compliance monitoring
+- Automated risk identification
+- Regulatory change tracking
+- Compliance health dashboards
+- Automated due diligence workflows
+- Risk scoring models
+- Intelligent document verification
+- Entity risk profiles
+- Continuous compliance monitoring
+- Automated audit preparation
 
 ---
 
