@@ -262,7 +262,7 @@ Governance establishes the strategic and operational framework that guides every
 
 ### Purpose
 
-Serves as the organization's official repository for permanent business records by maintaining a secure, centralized, and authoritative source of truth for all corporate documentation.
+Serves as the organization's authoritative source of truth for permanent business records by maintaining a secure, centralized, and authoritative source of truth for all corporate documentation.
 
 ### Primary Users
 
