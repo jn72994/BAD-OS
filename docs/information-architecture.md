@@ -24,7 +24,7 @@ Each top-level module should answer the following questions before development b
 |----------|-------------|
 | **Purpose** | Why does this module exist? |
 | **Primary User** | Who uses it most? |
-| **Core Records** | What information does it manage? |
+| **Managed Information** | What information does it manage? |
 | **Key Actions** | What can users do here? |
 | **Relationships** | Which other modules connect to it? |
 | **Future Vision** | How could this module evolve? |
@@ -85,7 +85,7 @@ Defines the identity, direction, governance, and operating principles of the org
 - Board of Directors
 - Executive Leadership
 
-### Core Records
+### Managed Information
 
 - Mission
 - Vision
@@ -142,7 +142,7 @@ Serves as the organization's official repository for permanent business records 
 - Compliance Officers
 - External Auditors
 
-### Core Records
+### Managed Information
 
 - Legal Documents
 - Banking Documents
