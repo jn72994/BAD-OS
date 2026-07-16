@@ -4,7 +4,15 @@
 
 This document defines the logical organization of BAD OS.
 
-Before any module is developed, it should first be defined here. This ensures every feature has a clear purpose, ownership, and relationship to the rest of the operating system.
+Before any module is developed, it should first be defined here. This ensures every feature has a clear purpose, ownership, and relationship to the rest of the operating system.  
+
+### Single Source of Truth
+
+Every official business record has one authoritative home within BAD OS.
+
+Other modules may reference, relate to, or display that record, but ownership remains with its primary module.
+
+This ensures consistency, eliminates duplication, simplifies permissions, and preserves data integrity across the operating system.
 
 ---
 
@@ -67,44 +75,119 @@ Designed after the core modules are complete.
 
 ## 2. Governance
 
-Defines the identity, direction, and operating philosophy of the organization.
+### Purpose
 
-```
-Governance
-│
-├── Mission
-├── Vision
-├── Philosophy
-├── Core Values
-├── Organizational Structure
-├── Strategic Plans
-├── Branding
-├── Policies
-├── SOP Library
-├── Board Documentation
-└── Management Meetings
-```
+Defines the identity, direction, governance, and operating principles of the organization.
+
+### Primary Users
+
+- Founders
+- Board of Directors
+- Executive Leadership
+
+### Core Records
+
+- Mission
+- Vision
+- Philosophy
+- Core Values
+- Organizational Structure
+- Strategic Plans
+- Branding
+- Policies
+- SOP Library
+- Board Documentation
+- Management Meetings
+
+### Key Actions
+
+- Create
+- Review
+- Approve
+- Revise
+- Archive
+- Publish
+
+### Relationships
+
+Governance serves as the foundation for every other module within BAD OS.
+
+- Compliance enforces governance policies.
+- Knowledge captures lessons that may influence governance.
+- Corporate Records stores approved governance documents.
+- Capital Management executes strategic financial decisions established through governance.
+
+### Future Vision
+
+- Version-controlled policies
+- AI-assisted policy drafting
+- Board approval workflows
+- Strategic planning dashboards
+- Governance scorecards
 
 ---
 
 ## 3. Corporate Records
 
-Maintains the organization's permanent legal, financial, and corporate records.
+### Purpose
 
-```
-Corporate Records
-│
-├── Legal
-├── Banking
-├── Insurance
-├── Tax
-├── Contracts
-├── Licenses
-├── Equity
-├── Financial Statements
-├── Due Diligence
-└── Audit
-```
+Is the official repository for every permanent record created by the enterprise. Other modules may reference, relate to, or display that record, but ownership remains with its primary module.
+
+### Primary Users
+
+- Executive Leadership
+- Legal Counsel
+- Finance Team
+- Corporate Secretary
+- Compliance Officers
+- External Auditors
+
+### Core Records
+
+- Legal
+- Banking
+- Insurance
+- Tax
+- Contracts
+- Licenses
+- Equity
+- Financial Statements
+- Due Diligence
+- Audit
+
+### Key Actions
+
+- Create
+- Upload
+- Organize
+- Review
+- Approve
+- Search
+- Archive
+- Export
+- Link Related Records
+
+### Relationships
+
+Corporate Records serves as the official repository for the organization's permanent business documentation.
+
+- Governance establishes the policies that determine how records are created, retained, and managed.
+- Entity Management links records to companies, investors, employees, customers, suppliers, banks, and advisors.
+- Compliance references corporate records to satisfy regulatory and audit requirements.
+- Capital Management stores executive financial documents such as annual financial statements, financing agreements, banking documentation, and investment records.
+- Knowledge references corporate records to support research, acquisitions, and strategic decision-making.
+
+### Future Vision
+
+- Intelligent document indexing and search
+- AI-powered document summarization
+- Automated document version control
+- Electronic signature integration
+- Document retention schedules
+- Secure document sharing
+- OCR for scanned documents
+- Relationship mapping between records
+- Full audit trail and document history
 
 ---
 
