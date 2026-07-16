@@ -1,20 +1,30 @@
 # BAD OS Information Architecture
 
-## Purpose
+## Enterprise Operating Model & Information Structure
 
-This document defines the logical organization of BAD OS.
+---
 
-Before any module is developed, it should first be defined here. This ensures every feature has a clear purpose, ownership, and relationship to the rest of the operating system.  
+# Purpose
 
-### Single Source of Truth
+This document defines the logical organization, information ownership, and architectural structure of BAD OS.
+
+Before any module, workflow, or feature is developed, it should first be defined within this framework. This ensures every capability has a clear purpose, ownership, relationship to other systems, and alignment with the overall BAD OS vision.
+
+---
+
+# Architectural Principles
+
+## Single Source of Truth
 
 Every official business record has one authoritative home within BAD OS.
 
-Other modules may reference, relate to, or display that record, but ownership remains with its primary module.
+Other modules may reference, relate to, display, or act upon that information, but ownership remains with its primary module.
 
 This ensures consistency, eliminates duplication, simplifies permissions, and preserves data integrity across the operating system.
 
-### Entity-Centered Architecture
+---
+
+## Entity-Centered Architecture
 
 Every significant record, workflow, and relationship within BAD OS should be associated with one or more entities whenever appropriate.
 
@@ -22,7 +32,15 @@ Entities provide the organizational context that connects information across mod
 
 ---
 
-## Module Design Framework
+## Business Function Separation
+
+Each BAD OS module owns a distinct business function and manages its associated information and workflows without unnecessarily duplicating responsibilities from other modules.
+
+Clear ownership prevents overlapping functionality, reduces complexity, and allows the system to scale as new capabilities are added.
+
+---
+
+# Module Design Framework
 
 Each top-level module should answer the following questions before development begins.
 
@@ -30,6 +48,7 @@ Each top-level module should answer the following questions before development b
 |----------|-------------|
 | **Purpose** | Why does this module exist? |
 | **Primary User** | Who uses it most? |
+| **Ownership** | Which information and processes does this module own? |
 | **Managed Information** | What information does it manage? |
 | **Key Actions** | What can users do here? |
 | **Relationships** | Which other modules connect to it? |
@@ -37,31 +56,32 @@ Each top-level module should answer the following questions before development b
 
 ---
 
-## BAD OS Architecture
+# BAD OS Architecture
 
 BAD OS is organized into distinct architectural layers rather than simply a collection of pages.
 
 Each layer serves a specific purpose within the operating system:
 
-- **Business Intelligence Layer** manages the core functions, information, and decision-making processes of the enterprise.
-- **User Experience Layer** provides users with visibility, navigation, and interaction across the system.
-- **Platform Administration Layer** manages the security, configuration, and technical foundation of BAD OS.
+- **Enterprise Operations Layer** manages the core business functions, information, and decision-making processes of the enterprise.
+- **User Experience Layer** provides visibility, navigation, and interaction across the system.
+- **Platform Administration Layer** manages security, configuration, and technical infrastructure.
 
 Together, these layers create the foundation of the Business Advisory & Design Ventures Operating System.
 
 ---
 
-# Layer 1 — Business Intelligence
+# Layer 1 — Enterprise Operations Layer
 
-The Business Intelligence Layer represents the core operating domains of an enterprise.
+The Enterprise Operations Layer represents the core operating domains of an enterprise.
 
-Each module manages a specific business function while maintaining relationships with the other modules through BAD OS's architectural principles:
+Each module manages a specific business function while maintaining relationships with other modules through BAD OS architectural principles:
 
 - **Single Source of Truth** — Every official record has one authoritative home.
 - **Entity-Centered Architecture** — Information is connected through the people, organizations, and relationships it represents.
+- **Business Function Separation** — Each module maintains clear ownership boundaries.
 
 ```
-Business Intelligence
+Enterprise Operations
 
 ├── Governance
 │
@@ -78,11 +98,14 @@ Business Intelligence
 
 ---
 
-# Layer 2 — User Experience
+
+---
+
+# Layer 2 — User Experience Layer
 
 The User Experience Layer provides the interface through which users interact with BAD OS.
 
-These components do not own business information. Instead, they organize, display, and connect information from the Business Intelligence Layer.
+These components do not own business information. Instead, they organize, display, and connect information from the Enterprise Operations Layer.
 
 ```
 User Experience
@@ -98,7 +121,7 @@ User Experience
 
 ---
 
-# Layer 3 — Platform Administration
+# Layer 3 — Platform Administration Layer
 
 The Platform Administration Layer manages the operation, security, and configuration of BAD OS itself.
 
@@ -143,15 +166,21 @@ BAD OS
 
 ---
 
-## Architectural Philosophy
+# Architectural Philosophy
 
 BAD OS is designed as an enterprise operating system rather than a traditional software application.
 
-The system is organized around business functions, relationships, and institutional knowledge rather than isolated pages.
+The system is organized around business functions, relationships, institutional knowledge, and decision-making rather than isolated pages.
 
-Modules manage business processes and information. The User Experience Layer connects users to that information. The Platform Administration Layer ensures the system remains secure, scalable, and reliable.
+Modules manage business processes and information.
+
+The User Experience Layer connects users to that information.
+
+The Platform Administration Layer ensures the system remains secure, scalable, and reliable.
 
 ---
+
+# User Experience Components  
 
 ## 1. Dashboard
 
@@ -572,6 +601,7 @@ Knowledge serves as the intellectual foundation of BAD OS by preserving insights
 - Predictive insights based on historical knowledge
 
 ---
+# Platform Administration  
 
 ## 8. Administration
 
