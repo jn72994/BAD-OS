@@ -52,7 +52,7 @@ BAD OS
 │
 ├── Compliance
 │
-├── Financial Management
+├── Capital Management
 │
 ├── Knowledge
 │
@@ -77,15 +77,16 @@ Designed after the core modules are complete.
 
 ### Purpose
 
-Defines the identity, direction, governance, and operating principles of the organization.
+Defines the organization's identity, direction, and operating principles by establishing the framework through which the enterprise is governed, managed, and strategically guided.
 
 ### Primary Users
 
 - Founders
 - Board of Directors
 - Executive Leadership
+- Corporate Secretary
 
-### Managed Information
+### Core Records
 
 - Mission
 - Vision
@@ -93,37 +94,46 @@ Defines the identity, direction, governance, and operating principles of the org
 - Core Values
 - Organizational Structure
 - Strategic Plans
-- Branding
+- Branding Standards
 - Policies
-- SOP Library
-- Board Documentation
+- Standard Operating Procedures (SOPs)
+- Board Agendas & Resolutions
 - Management Meetings
 
 ### Key Actions
 
+- Define
 - Create
 - Review
-- Approve
 - Revise
-- Archive
+- Approve
 - Publish
+- Assign Ownership
+- Schedule Reviews
+- Monitor Alignment
 
 ### Relationships
 
-Governance serves as the foundation for every other module within BAD OS.
+Governance establishes the strategic and operational framework that guides every other module within BAD OS.
 
-- Compliance enforces governance policies.
-- Knowledge captures lessons that may influence governance.
-- Corporate Records stores approved governance documents.
-- Capital Management executes strategic financial decisions established through governance.
+- Corporate Records maintains the official, approved versions of governance documents as the organization's permanent records.
+- Compliance enforces governance policies through regulatory controls, risk management, and internal compliance processes.
+- Entity Management defines the organizational structure, roles, and responsibilities that governance establishes.
+- Capital Management executes financial strategies and capital allocation decisions approved through governance.
+- Knowledge captures organizational learning, research, and strategic insights that continually improve governance decisions.
+- Administration manages permissions, workflows, and system configuration that support governance processes.
 
 ### Future Vision
 
-- Version-controlled policies
 - AI-assisted policy drafting
-- Board approval workflows
-- Strategic planning dashboards
-- Governance scorecards
+- Strategic planning workspaces
+- Board meeting management
+- Governance approval workflows
+- Policy lifecycle management
+- Organizational scorecards
+- Executive decision tracking
+- Strategy execution dashboards
+- Governance analytics
 
 ---
 
