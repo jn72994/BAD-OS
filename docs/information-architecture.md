@@ -14,6 +14,12 @@ Other modules may reference, relate to, or display that record, but ownership re
 
 This ensures consistency, eliminates duplication, simplifies permissions, and preserves data integrity across the operating system.
 
+### Entity-Centered Architecture
+
+Every significant record, workflow, and relationship within BAD OS should be associated with one or more entities whenever appropriate.
+
+Entities provide the organizational context that connects information across modules, enabling a complete view of the enterprise without duplicating data.
+
 ---
 
 ## Module Design Framework
@@ -86,7 +92,7 @@ Defines the organization's identity, direction, and operating principles by esta
 - Executive Leadership
 - Corporate Secretary
 
-### Core Records
+### Managed Information
 
 - Mission
 - Vision
@@ -207,21 +213,68 @@ Corporate Records serves as the authoritative source of truth for all official b
 
 ## 4. Entity Management
 
-Manages every person and organization that interacts with the enterprise.
+### Purpose
 
-```
-Entity Management
-│
-├── Companies
-├── Owners
-├── Directors
-├── Employees
-├── Investors
-├── Customers
-├── Suppliers
-├── Banks
-└── Advisors
-```
+Maintains the master records for every person, organization, and external party that interacts with the enterprise while serving as the central relationship hub across BAD OS.
+
+### Primary Users
+
+- Executive Leadership
+- Operations
+- Legal Counsel
+- Finance Team
+- Human Resources
+- Business Development
+- Compliance Officers
+
+### Managed Information
+
+- Companies
+- Owners
+- Directors
+- Employees
+- Investors
+- Customers
+- Suppliers
+- Banks
+- Advisors
+
+### Key Actions
+
+- Create
+- Edit
+- Archive
+- Search
+- Classify
+- Assign Relationships
+- View Related Records
+- Track Status
+- Merge Duplicate Entities
+- Manage Contact Information
+
+### Relationships
+
+Entity Management serves as the relationship layer that connects information throughout BAD OS.
+
+- Governance defines the organizational structure, leadership roles, and ownership relationships associated with entities.
+- Corporate Records links official documents to the entities they belong to, ensuring every record has clear ownership and context.
+- Compliance performs due diligence, risk assessments, and regulatory reviews on entities.
+- Capital Management tracks investments, ownership interests, financing relationships, banking partners, and portfolio companies.
+- Knowledge associates research, acquisition analyses, meeting notes, negotiations, and strategic insights with relevant entities.
+- Administration manages user permissions and access to entity information throughout the platform.
+
+### Future Vision
+
+- Unified enterprise relationship graph
+- Organizational ownership charts
+- Interactive relationship mapping
+- Entity timeline and activity history
+- Automatic duplicate detection
+- External data synchronization
+- AI-powered entity insights
+- Relationship-based search
+- Cross-module impact analysis
+- Global entity directory
 
 ---
 
