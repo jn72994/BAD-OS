@@ -37,19 +37,32 @@ Each top-level module should answer the following questions before development b
 
 ---
 
-## BAD OS Module Hierarchy  
+## BAD OS Architecture
 
-BAD OS is organized into business domains rather than individual pages.
+BAD OS is organized into distinct architectural layers rather than simply a collection of pages.
 
-Each domain represents a major function of operating an enterprise. Together, these domains form the foundation of the Business Advisory & Design Ventures Operating System.
+Each layer serves a specific purpose within the operating system:
 
-Every record, workflow, document, and process within BAD OS belongs to one of these domains.
+- **Business Intelligence Layer** manages the core functions, information, and decision-making processes of the enterprise.
+- **User Experience Layer** provides users with visibility, navigation, and interaction across the system.
+- **Platform Administration Layer** manages the security, configuration, and technical foundation of BAD OS.
+
+Together, these layers create the foundation of the Business Advisory & Design Ventures Operating System.
+
+---
+
+# Layer 1 — Business Intelligence
+
+The Business Intelligence Layer represents the core operating domains of an enterprise.
+
+Each module manages a specific business function while maintaining relationships with the other modules through BAD OS's architectural principles:
+
+- **Single Source of Truth** — Every official record has one authoritative home.
+- **Entity-Centered Architecture** — Information is connected through the people, organizations, and relationships it represents.
 
 ```
-BAD OS
-│
-├── Dashboard
-│
+Business Intelligence
+
 ├── Governance
 │
 ├── Corporate Records
@@ -60,10 +73,83 @@ BAD OS
 │
 ├── Capital Management
 │
-├── Knowledge
+└── Knowledge
+```
+
+---
+
+# Layer 2 — User Experience
+
+The User Experience Layer provides the interface through which users interact with BAD OS.
+
+These components do not own business information. Instead, they organize, display, and connect information from the Business Intelligence Layer.
+
+```
+User Experience
+
+├── Dashboard
 │
+├── Search
+│
+├── Notifications
+│
+└── Workflows
+```
+
+---
+
+# Layer 3 — Platform Administration
+
+The Platform Administration Layer manages the operation, security, and configuration of BAD OS itself.
+
+This layer supports all other modules by controlling access, integrations, and system functionality.
+
+```
+Platform Administration
+
 └── Administration
 ```
+
+---
+
+# BAD OS Complete Architecture
+
+```
+BAD OS
+
+│
+├── USER EXPERIENCE
+│
+├── Dashboard
+├── Search
+├── Notifications
+└── Workflows
+
+│
+├── BUSINESS INTELLIGENCE
+│
+├── Governance
+├── Corporate Records
+├── Entity Management
+├── Compliance
+├── Capital Management
+└── Knowledge
+
+│
+└── PLATFORM ADMINISTRATION
+
+    └── Administration
+```
+
+---
+
+## Architectural Philosophy
+
+BAD OS is designed as an enterprise operating system rather than a traditional software application.
+
+The system is organized around business functions, relationships, and institutional knowledge rather than isolated pages.
+
+Modules manage business processes and information. The User Experience Layer connects users to that information. The Platform Administration Layer ensures the system remains secure, scalable, and reliable.
 
 ---
 
