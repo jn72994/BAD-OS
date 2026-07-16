@@ -348,19 +348,71 @@ Compliance provides the framework for identifying, assessing, and managing organ
 
 ## 6. Capital Management
 
-Provides executive oversight of capital, investments, treasury, and financing to support strategic decision-making.
+### Purpose
 
-```
-Capital Management
-│
-├── Treasury
-├── Portfolio
-├── Capital Allocation
-├── Investment Approvals
-├── Financing
-├── Banking Relationships
-└── Executive Dashboards
-```
+Provides executive oversight of the organization's capital by managing treasury, investments, financing, capital allocation decisions, and financial strategy across the enterprise.
+
+### Primary Users
+
+- Founders
+- Board of Directors
+- Executive Leadership
+- Finance Leadership
+- Investment Teams
+- Advisors
+
+### Managed Information
+
+- Treasury Operations
+- Cash Position
+- Banking Relationships
+- Capital Allocation Decisions
+- Investment Opportunities
+- Investment Portfolio
+- Ownership Interests
+- Financing Activities
+- Debt Obligations
+- Funding Requests
+- Financial Performance Insights
+- Executive Financial Dashboards
+
+### Key Actions
+
+- Review
+- Analyze
+- Approve
+- Allocate
+- Monitor
+- Forecast
+- Evaluate
+- Compare
+- Track Performance
+- Manage Investment Decisions
+- Report Financial Insights
+
+### Relationships
+
+Capital Management provides the strategic financial intelligence layer of BAD OS by connecting capital decisions with enterprise operations.
+
+- Corporate Records maintains the official financial records, agreements, statements, and documentation that support capital decisions.
+- Entity Management connects capital activities to companies, owners, investors, banks, advisors, and other related entities.
+- Governance establishes the strategic objectives, approval structures, and decision-making authority that guide capital allocation.
+- Compliance ensures capital activities follow legal, regulatory, and internal risk requirements.
+- Knowledge captures investment theses, acquisition analyses, research, lessons learned, and strategic insights that support future capital decisions.
+- Administration manages permissions, integrations, workflows, and security controls related to financial information.
+
+### Future Vision
+
+- Enterprise capital dashboard
+- Real-time financial intelligence
+- Investment portfolio analytics
+- Capital allocation modeling
+- Acquisition evaluation workflows
+- Scenario planning and forecasting
+- AI-assisted investment analysis
+- Automated financial reporting integrations
+- Cash flow visibility across entities
+- Strategic wealth management tools
 
 ---
 
