@@ -451,4 +451,96 @@ Maintaining a consistent relationship model ensures that BAD OS remains scalable
 
 ---  
 
+# 6. Data Ownership
+
+Data Ownership defines which business object serves as the authoritative source for each category of information maintained within BAD OS.
+
+Establishing clear ownership ensures that every piece of business information has a single canonical source while allowing other business objects and modules to reference that information as needed.
+
+This approach reinforces the principles of data integrity, consistency, and the Single Source of Truth established throughout this document.
+
+---
+
+## 6.1 Canonical Ownership
+
+Every business object is responsible for maintaining its own information.
+
+Other business objects may reference, display, or utilize that information, but ownership always remains with the canonical object.
+
+For example, an Entity owns its legal name and organizational information, while a Document owns its content and version history.
+
+---
+
+## 6.2 Ownership Responsibilities
+
+The owner of a business object is responsible for maintaining:
+
+- Core business information
+- Lifecycle status
+- Metadata
+- Relationships to other business objects
+- Version history, where applicable
+
+Other business objects should reference this information rather than creating duplicate records.
+
+---
+
+## 6.3 Cross-Module Access
+
+Modules may display information owned by other business objects without assuming ownership.
+
+For example:
+
+- The Dashboard may display upcoming Compliance Records.
+- Governance may display related Documents.
+- Compliance may reference Entity information.
+- Knowledge Assets may reference approved Policies.
+
+In every case, the original business object remains the authoritative source.
+
+---
+
+## 6.4 Canonical Ownership Examples
+
+The following examples illustrate the intended ownership model within BAD OS.
+
+| Information | Canonical Owner |
+|-------------|-----------------|
+| Legal Entity Name | Entity |
+| Business Address | Entity |
+| EIN / Tax Identification | Entity |
+| Person Information | Person |
+| Organizational Role | Role |
+| Operating Agreement | Document |
+| Articles of Organization | Document |
+| Meeting Minutes | Meeting |
+| Board Resolution | Resolution |
+| Annual Compliance Filing | Compliance Record |
+| Ownership Structure | Capital Record |
+| Standard Operating Procedure | Knowledge Asset |
+| Workflow Definition | Workflow |
+| Notification Content | Notification |
+
+This table is intended to illustrate architectural intent and may evolve as additional business objects are introduced.
+
+---
+
+## 6.5 Referencing Over Duplication
+
+Whenever possible, business objects should reference existing information rather than creating duplicate copies.
+
+Relationships should be used to connect business objects while preserving a single authoritative record.
+
+This approach simplifies maintenance, improves reporting, and reduces the risk of inconsistent data throughout the platform.
+
+---
+
+## 6.6 Future Evolution
+
+As BAD OS grows, new business objects may become canonical owners for additional categories of information.
+
+Future enhancements should extend the ownership model while preserving the principles established within this document.  
+
+---  
+
 
