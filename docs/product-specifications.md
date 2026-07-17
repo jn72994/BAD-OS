@@ -83,70 +83,32 @@ The architecture should allow new modules to be added without requiring major ch
 
 **Module Structure**
 
-├── Search  
-├── Notifications  
-└── Settings  
+```
+BAD OS
 
-├── **Governance**  
-│   ├── Mission  
-│   ├── Vision  
-│   ├── Philosophy  
-│   ├── Core Values  
-│   ├── Organizational Structure  
-│   ├── Strategic Plans  
-│   ├── Branding  
-│   ├── Policies  
-│   ├── SOP Library  
-│   ├── Board Documentation  
-│   └── Management Meetings  
-│  
-├── **Corporate Records**  
-│   ├── Legal  
-│   ├── Banking  
-│   ├── Insurance  
-│   ├── Tax  
-│   ├── Contracts  
-│   ├── Licenses  
-│   ├── Equity  
-│   ├── Financial Statements  
-│   ├── Due Diligence  
-│   └── Audit  
-│  
-├── **Entity Management**  
-│   ├── Companies  
-│   ├── Owners  
-│   ├── Directors  
-│   ├── Employees  
-│   ├── Investors  
-│   ├── Customers  
-│   ├── Suppliers  
-│   ├── Banks  
-│   └── Advisors  
-│  
-├── **Compliance**  
-│   ├── Customer Due Diligence   
-│   ├── Enhanced Due Diligence  
-│   ├── AML  
-│   ├── Risk Assessments  
-│   └── Compliance Documents  
-│  
-├── **Financial Management**  
-│   ├── Treasury  
-│   ├── Transactions  
-│   ├── Approvals  
-│   ├── Reconciliation  
-│   ├── Portfolio  
-│   └── Dashboards  
-│  
-├── **Knowledge**  
-│   ├── Acquisition Analyses  
-│   ├── Investment Theses  
-│   ├── Negotiations  
-│   ├── Lessons Learned  
-│   ├── Training  
-│   ├── Research  
-│   ├── Strategic Planning  
-│   └── Meeting Minutes  
+│
+├── USER EXPERIENCE
+│
+├── Dashboard
+├── Search
+├── Notifications
+└── Workflows
+
+│
+├── ENTERPRISE OPERATIONS
+│
+├── Governance
+├── Corporate Records
+├── Entity Management
+├── Compliance
+├── Capital Management
+└── Knowledge
+
+│
+└── PLATFORM ADMINISTRATION
+
+    └── Administration
+```
 
 ## 5. Development Roadmap
 
