@@ -122,4 +122,136 @@ Business objects are the foundation of the platform.
 
 Modules exist to organize, visualize, and manage business objects—not to own them.
 
-Every new capability introduced into BAD OS should first be modeled as a business object and its relationships before considering how it will be presented within the user interface.
+Every new capability introduced into BAD OS should first be modeled as a business object and its relationships before considering how it will be presented within the user interface.  
+
+---  
+
+# 3. Core Data Objects
+
+The BAD OS data model is composed of a collection of core business objects that represent the organization's operational information.
+
+These objects serve as the logical foundation of the platform and are shared across multiple modules through defined relationships.
+
+Each business object represents a distinct concept within the organization and acts as a canonical source for its associated information.
+
+As BAD OS evolves, additional business objects may be introduced without altering the overall architectural principles established in this document.
+
+---
+
+## 3.1 Entity
+
+Represents a legal or operational organization managed within BAD OS.
+
+Examples include corporations, limited liability companies (LLCs), partnerships, nonprofit organizations, trusts, subsidiaries, and future business entities.
+
+The Entity serves as the primary organizational object within the platform and forms the foundation for most business relationships.
+
+---
+
+## 3.2 Person
+
+Represents an individual associated with one or more business entities.
+
+Persons may include owners, members, directors, managers, officers, employees, advisors, contractors, legal counsel, accountants, investors, or other stakeholders.
+
+A Person may participate in multiple entities simultaneously through different roles.
+
+---
+
+## 3.3 Role
+
+Defines the relationship between a Person and an Entity.
+
+Examples include Member, Manager, Director, Officer, Employee, Registered Agent, Legal Counsel, Accountant, Investor, or Advisor.
+
+Separating Roles from Persons allows responsibilities to change over time while preserving historical records.
+
+---
+
+## 3.4 Document
+
+Represents any controlled business document maintained within BAD OS.
+
+Examples include operating agreements, articles of organization, bylaws, contracts, tax filings, meeting minutes, policies, licenses, permits, and supporting records.
+
+Documents may be associated with one or more business objects depending on their purpose.
+
+---
+
+## 3.5 Meeting
+
+Represents a formal meeting conducted by an Entity.
+
+Meetings may include agendas, attendees, minutes, resolutions, action items, and supporting documents.
+
+Meetings provide the historical record of organizational decision-making.
+
+---
+
+## 3.6 Resolution
+
+Represents a formal decision or authorization approved by an Entity.
+
+Resolutions may authorize operational actions, financial decisions, ownership changes, governance updates, or strategic initiatives.
+
+Resolutions are typically linked to meetings but may also exist independently where permitted.
+
+---
+
+## 3.7 Task
+
+Represents a unit of work assigned within BAD OS.
+
+Tasks may originate from compliance requirements, meetings, workflows, projects, approvals, or manual assignment.
+
+Tasks support accountability through ownership, due dates, priorities, and completion status.
+
+---
+
+## 3.8 Compliance Record
+
+Represents a regulatory obligation associated with an Entity.
+
+Examples include annual reports, licenses, tax filings, registrations, permits, required disclosures, and recurring compliance activities.
+
+Compliance records enable BAD OS to monitor deadlines, filing status, and historical compliance activity.
+
+---
+
+## 3.9 Capital Record
+
+Represents ownership, capitalization, and investment activity for an Entity.
+
+Examples include ownership interests, capital contributions, distributions, equity issuances, transfers, valuations, and related transactions.
+
+Capital Records provide the historical financial ownership structure of each Entity.
+
+---
+
+## 3.10 Knowledge Asset
+
+Represents institutional knowledge maintained within BAD OS.
+
+Examples include standard operating procedures (SOPs), policies, playbooks, training materials, templates, reference guides, and operational documentation.
+
+Knowledge Assets preserve organizational expertise and promote consistent execution.
+
+---
+
+## 3.11 Workflow
+
+Represents a structured business process executed within BAD OS.
+
+Workflows define repeatable operational procedures, approvals, task generation, and automated business processes across the platform.
+
+---
+
+## 3.12 Notification
+
+Represents a system-generated communication delivered to users.
+
+Notifications may inform users of assignments, approvals, deadlines, workflow events, compliance requirements, document changes, or other significant activities.
+
+Notifications improve visibility and operational awareness throughout the platform.  
+
+---
