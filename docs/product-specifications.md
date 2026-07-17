@@ -69,48 +69,8 @@ Naming, navigation, layouts, and workflows should follow common standards throug
 
 Important decisions, processes, and business knowledge belong in BAD OS rather than individual memory.  
 
-## 4. Information Architecture  
 
-BAD OS is organized into independent modules built around business functions.  
-
-Each module manages its own data while remaining connected through shared relationships.  
-
-The dashboard provides a consolidated view of information from across the system.  
-
-Search should operate across all modules.  
-
-The architecture should allow new modules to be added without requiring major changes to existing components.  
-
-**Module Structure**
-
-```
-BAD OS
-
-│
-├── USER EXPERIENCE
-│
-├── Dashboard
-├── Search
-├── Notifications
-└── Workflows
-
-│
-├── ENTERPRISE OPERATIONS
-│
-├── Governance
-├── Corporate Records
-├── Entity Management
-├── Compliance
-├── Capital Management
-└── Knowledge
-
-│
-└── PLATFORM ADMINISTRATION
-
-    └── Administration
-```
-
-## 5. Development Roadmap
+## 4. Development Roadmap
 
 Development will proceed in small, incremental phases.
 
@@ -133,7 +93,7 @@ Phase 6:	Continuous improvement and expansion
 Each phase should produce a stable, functional foundation before moving to the next.
 
 
-## 6. Success Criteria  
+## 5. Success Criteria  
 
 BAD OS is successful when:  
 
@@ -150,7 +110,7 @@ Users spend less time searching for information.
 The system grows without becoming difficult to maintain.  
 
 
-## 7. Long-Term Direction  
+## 6. Long-Term Direction  
 
 BAD OS should become the primary operating platform for B.A.D. Ventures.  
 
