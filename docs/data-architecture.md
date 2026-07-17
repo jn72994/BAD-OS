@@ -254,4 +254,94 @@ Notifications may inform users of assignments, approvals, deadlines, workflow ev
 
 Notifications improve visibility and operational awareness throughout the platform.  
 
+---  
+
+# 4. Entity-Centered Model
+
+The Entity-Centered Model defines the primary organizational structure of information within BAD OS.
+
+Rather than organizing information around individual modules or functional departments, BAD OS organizes information around business entities. Every legal or operational entity managed within the platform becomes the central point through which related information is connected.
+
+This approach creates a unified representation of each organization and allows information to be shared across the platform without duplication.
+
 ---
+
+## 4.1 The Entity as the Primary Business Object
+
+The Entity serves as the foundation of the BAD OS data model.
+
+Each Entity represents a distinct legal or operational organization and acts as the primary point of reference for the majority of business information maintained within the system.
+
+Examples include:
+
+- Holding companies
+- Limited Liability Companies (LLCs)
+- Corporations
+- Partnerships
+- Nonprofit organizations
+- Trusts
+- Subsidiaries
+- Joint ventures
+- Future organizational structures
+
+Every Entity maintains its own relationships, governance records, ownership information, compliance history, operational knowledge, and supporting documentation.
+
+---
+
+## 4.2 Relationship-Based Organization
+
+Business information is connected to an Entity through defined relationships rather than physical location within a module.
+
+For example:
+
+- Persons are assigned to Entities through Roles.
+- Documents are associated with one or more Entities.
+- Meetings are conducted by Entities.
+- Resolutions authorize actions for Entities.
+- Compliance Records belong to Entities.
+- Capital Records describe ownership within Entities.
+- Knowledge Assets may support one or more Entities.
+- Tasks may be assigned in support of Entity operations.
+
+Modules provide different views into these connected relationships but do not become the owners of the underlying information.
+
+---
+
+## 4.3 Shared Business Objects
+
+Certain business objects may be related to multiple Entities simultaneously.
+
+Examples include:
+
+- A Person serving as an officer of multiple companies.
+- A legal agreement involving multiple Entities.
+- A shared policy that applies across an entire corporate group.
+- A workflow executed on behalf of several related organizations.
+
+The Data Architecture supports these relationships without requiring duplicate records.
+
+---
+
+## 4.4 Organizational Flexibility
+
+The Entity-Centered Model supports organizations of varying size and complexity.
+
+Whether BAD OS manages a single company or a multi-entity enterprise with numerous subsidiaries, the same architectural principles remain consistent.
+
+Additional Entities may be introduced without requiring changes to the underlying data model.
+
+This allows BAD OS to scale naturally alongside organizational growth.
+
+---
+
+## 4.5 Unified Business View
+
+Because information is organized around Entities, BAD OS can present a complete operational view of any organization managed within the platform.
+
+From a single Entity, users may access related governance information, corporate records, compliance history, ownership structure, meetings, resolutions, operational knowledge, workflows, documents, and other connected business objects.
+
+This unified perspective improves decision-making, reduces information silos, and reinforces the principle of a single source of truth throughout the platform.  
+
+---  
+
+
