@@ -344,4 +344,111 @@ This unified perspective improves decision-making, reduces information silos, an
 
 ---  
 
+# 5. Data Relationships
+
+The value of BAD OS is derived not only from the information it stores, but from the relationships established between business objects.
+
+Rather than existing as isolated records, business objects are interconnected to form a unified operational model of the organization.
+
+These relationships enable information to be shared across multiple modules while maintaining a single source of truth.
+
+---
+
+## 5.1 Relationship Model
+
+Business objects are connected through defined logical relationships.
+
+Relationships establish how one object references, supports, or depends upon another without duplicating information.
+
+Each relationship should have a clearly defined purpose and represent a meaningful business connection.
+
+---
+
+## 5.2 Primary Relationships
+
+The following relationships represent the foundational connections within the BAD OS data model.
+
+| Business Object | Common Relationships |
+|-----------------|----------------------|
+| Entity | Person, Role, Document, Meeting, Resolution, Compliance Record, Capital Record, Knowledge Asset, Task |
+| Person | Entity, Role, Meeting, Task, Document |
+| Role | Person, Entity |
+| Document | Entity, Meeting, Resolution, Compliance Record, Knowledge Asset |
+| Meeting | Entity, Person, Resolution, Document, Task |
+| Resolution | Entity, Meeting, Document, Task |
+| Task | Entity, Person, Meeting, Workflow, Compliance Record |
+| Compliance Record | Entity, Document, Task |
+| Capital Record | Entity, Person, Document |
+| Knowledge Asset | Entity, Document, Workflow |
+| Workflow | Entity, Task, Notification |
+| Notification | Person, Task, Workflow |
+
+These relationships are logical in nature and are intended to guide future implementation rather than prescribe specific database structures.
+
+---
+
+## 5.3 One-to-One Relationships
+
+Some business objects maintain an exclusive relationship with another object.
+
+Examples include:
+
+- A Role assignment belongs to a specific Person and a specific Entity.
+- A Compliance Record may reference a single filing document.
+- A Notification may correspond to a specific workflow event.
+
+---
+
+## 5.4 One-to-Many Relationships
+
+Many business objects naturally relate to multiple subordinate records.
+
+Examples include:
+
+- One Entity may own many Documents.
+- One Entity may conduct many Meetings.
+- One Meeting may produce multiple Resolutions.
+- One Workflow may generate multiple Tasks.
+- One Person may be assigned many Tasks.
+
+These relationships represent the most common organizational structure within BAD OS.
+
+---
+
+## 5.5 Many-to-Many Relationships
+
+Certain business relationships require objects to associate with multiple records simultaneously.
+
+Examples include:
+
+- A Person serving multiple Entities.
+- A Document applying to multiple Entities.
+- Multiple Persons attending a Meeting.
+- A Knowledge Asset supporting multiple Entities.
+- A Workflow involving multiple business objects.
+
+BAD OS should support these relationships while maintaining a single canonical record for each business object.
+
+---
+
+## 5.6 Relationship Integrity
+
+Relationships should remain accurate, consistent, and traceable throughout the lifecycle of every business object.
+
+When business information changes, relationships should be updated without unnecessarily altering historical records.
+
+Whenever practical, historical relationships should be preserved to provide an accurate representation of organizational history.
+
+---
+
+## 5.7 Relationship Evolution
+
+As BAD OS expands, new business objects and relationships may be introduced.
+
+Future enhancements should extend the existing relationship model rather than replace it.
+
+Maintaining a consistent relationship model ensures that BAD OS remains scalable while preserving the integrity of existing business information.  
+
+---  
+
 
