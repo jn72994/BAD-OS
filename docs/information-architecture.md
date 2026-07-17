@@ -149,7 +149,7 @@ BAD OS
 └── Workflows
 
 │
-├── Enterprise Operations
+├── ENTERPRISE OPERATIONS
 │
 ├── Governance
 ├── Corporate Records
