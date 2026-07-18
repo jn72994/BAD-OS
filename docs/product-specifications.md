@@ -3,7 +3,7 @@
 Version: 0.1  
 Status: Draft  
 Owner: BAD Ventures  
-Category: Architecture  
+Category: Product Definition
 Last Updated: 2026-07-18  
 
 ---  
