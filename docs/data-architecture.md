@@ -1,7 +1,20 @@
 # BAD OS Data Architecture
 
-**Version:** 0.1  
-**Status:** Draft
+Version: 0.1  
+Status: Draft  
+Owner: BAD Ventures  
+Category: Architecture  
+Last Updated: 2026-07-18  
+
+---  
+
+## Related Documents
+
+This document should be used alongside:
+
+- BAD OS Information Architecture
+- BAD OS Products Specifications
+- BAD OS Workflow Architecture
 
 ---
 
