@@ -31,6 +31,8 @@ Together with the Data Architecture, this document forms the operational foundat
 - **Data Architecture** defines what the organization knows.
 - **Workflow Architecture** defines how the organization operates.
 
+Data defines the state of the organization. Workflows define how that state changes over time.
+
 By separating information from process, BAD OS creates a flexible operating system where workflows can evolve independently while maintaining a single, consistent business architecture.  
 
 ---  
