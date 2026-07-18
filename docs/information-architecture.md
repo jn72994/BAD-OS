@@ -1,8 +1,23 @@
 # BAD OS Information Architecture
-
 ## Enterprise Operating Model & Information Structure
 
----
+Version: 0.1  
+Status: Draft  
+Owner: BAD Ventures  
+Category: Architecture  
+Last Updated: 2026-07-18  
+
+---  
+
+## Related Documents
+
+This document should be used alongside:
+
+- BAD OS Data Architecture
+- BAD OS Product Specifications
+- BAD OS Workflow Architecture
+
+---  
 
 # Purpose
 
