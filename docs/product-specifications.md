@@ -1,6 +1,22 @@
 # BAD OS Product Specification
-Version: 0.1
- Status: Draft  
+
+Version: 0.1  
+Status: Draft  
+Owner: BAD Ventures  
+Category: Product Definition
+Last Updated: 2026-07-18  
+
+---  
+
+## Related Documents
+
+This document should be used alongside:
+
+- BAD OS Information Architecture
+- BAD OS Data Architecture
+- BAD OS Workflow Architecture
+
+---  
  
 ### Purpose:  
 Define the Operating System specifications, guiding principles, architecture, and development direction for BAD OS before implementation begins.
