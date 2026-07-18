@@ -12,9 +12,10 @@ Last Updated: 2026-07-18
 
 This document should be used alongside:
 
+- BAD OS Product Specification
 - BAD OS Information Architecture
-- BAD OS Products Specifications
 - BAD OS Workflow Architecture
+- BAD OS Technical Architecture
 
 ---
 
