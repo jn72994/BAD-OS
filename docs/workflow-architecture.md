@@ -15,6 +15,7 @@ This document should be used alongside:
 - BAD OS Product Specification
 - BAD OS Information Architecture
 - BAD OS Data Architecture
+- BAD OS User Experience Architecture
 
 ---  
 
