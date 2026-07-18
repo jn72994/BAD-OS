@@ -4,7 +4,19 @@ Version: 0.1
 Status: Draft  
 Owner: BAD Ventures  
 Category: Architecture  
-Last Updated: 2026-07-18
+Last Updated: 2026-07-18  
+
+---  
+
+## Related Documents
+
+This document should be used alongside:
+
+- BAD OS Product Specification
+- BAD OS Information Architecture
+- BAD OS Data Architecture
+
+---  
 
 ## Purpose
 
