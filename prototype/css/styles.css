@@ -1,1 +1,75 @@
-Styles.css goes here:
+/* BAD OS Prototype - Application Shell */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Sidebar */
+
+aside {
+    width: 250px;
+    height: 100vh;
+    background-color: #111827;
+    color: white;
+    padding: 20px;
+}
+
+
+/* Workspace */
+
+.workspace {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Header */
+
+header {
+    height: 70px;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+}
+
+
+/* Main Content */
+
+main {
+    flex: 1;
+    background-color: #f3f4f6;
+    padding: 20px;
+}
+
+
+/* Logo */
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+
+/* Navigation */
+
+nav ul {
+    list-style: none;
+}
+
+
+nav li {
+    padding: 12px 0;
+    cursor: pointer;
+}
