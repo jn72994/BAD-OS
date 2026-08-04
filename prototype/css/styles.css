@@ -46,13 +46,56 @@ body {
 /* Sidebar */
 
 aside {
+
     width: var(--sidebar-width);
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
     background: var(--color-primary-dark);
+
     color: white;
+
     padding: 24px;
+
 }
 
+nav {
+
+    flex: 1;
+
+}
+
+.sidebar-footer {
+
+    margin-top: auto;
+
+    padding-top: 20px;
+
+    border-top: 1px solid rgba(255,255,255,.08);
+
+}
+
+.company-name {
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    color: rgba(255,255,255,.85);
+
+}
+
+.version {
+
+    margin-top: 4px;
+
+    font-size: 12px;
+
+    color: rgba(255,255,255,.45);
+
+}
 
 /* Workspace */
 
@@ -103,8 +146,60 @@ nav ul {
     list-style: none;
 }
 
-
 nav li {
-    padding: 12px 0;
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 14px 16px;
+    margin-bottom: 6px;
+
+    border-radius: 10px;
+
+    color: rgba(255,255,255,.75);
+
     cursor: pointer;
+
+    transition: all .2s ease;
 }
+
+.nav-icon {
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.35);
+
+    flex-shrink: 0;
+
+}
+
+nav li:hover {
+
+    background: rgba(255,255,255,.08);
+
+    color: white;
+
+}
+
+nav li.active {
+
+    background: rgba(198,40,40,.18);
+
+    color: white;
+
+    border-left: 4px solid var(--color-accent);
+
+    padding-left: 12px;
+
+}
+
+nav li.active .nav-icon {
+
+    background: var(--color-accent);
+
+}
+
